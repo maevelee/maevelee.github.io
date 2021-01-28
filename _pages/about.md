@@ -1,15 +1,13 @@
 ---
-title: "이 블로그 설명서"
+title: "About Me"
 permalink: /about/
 toc_sticky: true
 toc_ads : true
 layout: single
 ---
 
-## devinlife.github.io 블로그
+## Rula Lee
 
-이 블로그는 Github Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
+평생 문과로 살다 어쩌다 컴퓨터를 하고 있습니다.
+자세한 프로필은 <https://www.notion.so/6ee2555712824a4eba5fd7c4d7a0b741>에서 확인하실 수 있습니다.
 
-진짜 블로그인 <https://devinlife.com>을 방문해보자.
-이 곳에서 이 샘플 블로그를 같이 만들어보는 Github Pages 블로그 따라하기 시리즈의
-모든 글을 볼 수 있다.
