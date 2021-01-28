@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Rula Lee"
-  avatar           : ""
+  avatar           : "/assets/images/sihyunhada_image.jpg"
   bio              : "어쩌다 개발에 뛰어든 문과생. Data Science, Machine Learning, NLP를 공부합니다."
   location         : "Seoul, South Korea"
   email            : 
