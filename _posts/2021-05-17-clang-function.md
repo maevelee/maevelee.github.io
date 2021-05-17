@@ -49,7 +49,7 @@ void NoReturnType(int num)
     if (num < 0)
      return; //값을 반환하지 않는 Return문
 }
-
+```
 반환할 값을 명시하지 않았기 때문에 Return문이 가진 두 가지 의미 중 한 가지 의미만이 수행된다.  
 
 따라서, 위 코드의 경우 값의 반환 없이 그냥 함수를 빠져나간다.
