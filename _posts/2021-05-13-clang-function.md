@@ -1,5 +1,5 @@
 ---
-title: "C언어 기초 - 함수"
+title: "C언어 기초 - 함수(1)"
 excerpt: "C언어로 함수를 작성해보자."
 categories:
   - lectures
