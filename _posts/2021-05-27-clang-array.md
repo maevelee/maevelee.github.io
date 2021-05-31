@@ -49,15 +49,15 @@ int main(void)
 int oneDimArr [4];
 ```
 
-여기서 int는 자료형을 나타내고,  
-oneDimArr은 배열의 이름을 나타내며,  
-[4]는 배열의 길이를 나타낸다. 
+여기서 **int**는 **자료형**을 나타내고,  
+**oneDimArr**은 **배열의 이름**을 나타내며,  
+**[4]**는 **배열의 길이**를 나타낸다. 
 
-즉, 위 코드가 뜻하는 바는 "int형 변수 4개로 이루어진 배열을 선언하되, 그 배열의 이름을 oneDimArr로 하라" 이다. 
+즉, 위 코드가 뜻하는 바는 **"int형 변수 4개로 이루어진 배열을 선언하되, 그 배열의 이름을 oneDimArr로 하라"** 이다. 
 
 이렇게 선언된 배열은 아래와 같은 형태로 메모리에 저장된다. 
 
-![](https://drive.google.com/uc?id=1w1AdtnUUjEtpMGsLiNwG0q9jpXaaNrQ4){: width="40%" height="40%" .align-center}
+![](https://drive.google.com/uc?id=1w1AdtnUUjEtpMGsLiNwG0q9jpXaaNrQ4){: width="70%" height="50%" .align-center}
 
 ## 1차원 배열의 접근
 
@@ -105,10 +105,11 @@ int main(void)
 ```
 
 위 코드의 경우 길이가 3인 배열의 4번째 항목에 접근하고 있다.
-C컴파일러는 배열 접근에 있어서 **유효성 검사를 전행하지 않기 때문에** 위 코드는 에러가 나지 않는다. 
+<span style="color:red">**C컴파일러는 배열 접근에 있어서 유효성 검사를 전행하지 않기 때문에 위 코드는 에러가 나지 않는다.**</span> 
 에러가 나지 않는데 자꾸만 이상하게 동작한다면 ...  
 
-그게 더 끔찍하다  
+아주 끔찍하다 ^ ^
+
 따라서 배열에 접근할때는 길이를 항상 주의해야 한다. 
 
 ## 배열을 선언과 동시에 초기화하기
